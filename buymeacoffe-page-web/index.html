@@ -132,6 +132,7 @@
             <input
               min="1"
               id="coffeeCount"
+              value="1"
               placeholder="Number of coffees"
               onchange="document.getElementById('sendBtn').innerText = `Support $${
                 this.value * 5
@@ -149,7 +150,7 @@
             ><button
               id="sendBtn"
               class="text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full h-10 flex justify-center items-center bg-zinc-900 dark:bg-zinc-50 text-white dark:text-zinc-900 rounded-full"
-              onclick="onepay(document.getElementById('coffeeCount').value, 'usdt')"
+              onclick="onepay(document.getElementById('coffeeCount').value || 5, 'usdt')"
             >
               Support $5
             </button>
