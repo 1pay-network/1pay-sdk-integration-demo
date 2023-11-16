@@ -10,7 +10,7 @@ Refer to our [Documents](https://1pay.network/documents/) for details around the
 
 | Folder Name          | Product      | Platform |
 | -------------------- | ------------ | -------- |
-| donation-page-web    | Payment Page | Web      |
+| kofi-page-web        | Payment Page | Web      |
 | buymeacoffe-page-web | Payment Page | Web      |
 
 ### How do I get set up?

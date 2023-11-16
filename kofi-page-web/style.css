@@ -1,0 +1,277 @@
+:root {
+  --spring-green-50: #effef5;
+  --spring-green-100: #d8ffeb;
+  --spring-green-200: #b4fed8;
+  --spring-green-300: #7afbba;
+  --spring-green-400: #1fec85;
+  --spring-green-500: #10d773;
+  --spring-green-600: #07b25d;
+  --spring-green-700: #098c4b;
+  --spring-green-800: #0d6e3f;
+  --spring-green-900: #0d5a36;
+  --jaffa-50: #fef5ee;
+  --jaffa-100: #fee9d6;
+  --jaffa-200: #fbcfad;
+  --jaffa-300: #f8ad79;
+  --jaffa-400: #f47c3c;
+  --jaffa-500: #f15e1e;
+  --jaffa-600: #e24514;
+  --jaffa-700: #bc3312;
+  --jaffa-800: #952917;
+  --jaffa-900: #782516;
+  --persimmon-50: #fff1f1;
+  --persimmon-100: #ffe2e1;
+  --persimmon-200: #ffc8c7;
+  --persimmon-300: #ffa2a0;
+  --persimmon-400: #ff5e5b;
+  --persimmon-500: #f83e3b;
+  --persimmon-600: #e5211d;
+  --persimmon-700: #c11714;
+  --persimmon-800: #a01714;
+  --persimmon-900: #841a18;
+  --blue-50: #effaff;
+  --blue-100: #def3ff;
+  --blue-200: #b6eaff;
+  --blue-300: #75dbff;
+  --blue-400: #2ccaff;
+  --blue-500: #00aff1;
+  --blue-600: #0090d4;
+  --blue-700: #0072ab;
+  --blue-800: #00608d;
+  --blue-900: #065074;
+  --gray-30: #f5f5f5;
+  --gray-50: #f7f7f7;
+  --gray-100: #f0f0f0;
+  --gray-200: #e4e4e4;
+  --gray-300: #d1d1d1;
+  --gray-400: #b4b4b4;
+  --gray-500: #9a9a9a;
+  --gray-600: #818181;
+  --gray-700: #6a6a6a;
+  --gray-800: #5a5a5a;
+  --gray-900: #4e4e4e;
+  --white: #ffffff;
+  --mirage-50: #f4f8f9;
+  --mirage-100: #dce7eb;
+  --mirage-200: #b9cdd6;
+  --mirage-300: #8eacba;
+  --mirage-400: #66889b;
+  --mirage-500: #4c6d80;
+  --mirage-600: #3b5566;
+  --mirage-700: #324653;
+  --mirage-800: #2b3a44;
+  --mirage-900: #192025;
+  --linen-50: #fefaf9;
+  --transaparent: transparent;
+  --skeleton-gradient: linear-gradient(
+    to right,
+    var(--gray-100) 4%,
+    var(--gray-200) 25%,
+    var(--gray-100) 36%
+  );
+  --shadow-reg-0: 0px 0px 2px rgba(0, 0, 0, 0.15),
+    0px 2px 5px rgba(0, 0, 0, 0.05), 0px 8px 40px rgba(0, 0, 0, 0.04);
+  --shadow-white-reg-0: 0px 0px 2px #ffffff29, 0px 2px 5px #ffffff29,
+    0px 8px 40px #ffffff29;
+  --shadow-none: none;
+  --text-color: var(--mirage-900);
+  --text-color-hover: var(--mirage-800);
+  --text-primary-color: var(--blue-500);
+  --sub-text-color: var(--gray-600);
+  --text-success: var(--spring-green-800);
+  --text-default-white: var(--white);
+  --text-danger: var(--persimmon-600);
+  --text-disable: var(--gray-300);
+  --bg-color-layer-0: var(--white);
+  --bg-color-layer-1: var(--white);
+  --bg-color-layer-2: var(--white);
+  --bg-color-warning: var(--jaffa-100);
+  --bg-color-danger: var(--persimmon-200);
+  --bg-gray-layer-0: var(--gray-30);
+  --bg-gray-layer-1: var(--gray-50);
+  --bg-gray-layer-2: var(--gray-50);
+  --bg-gradient-membership: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 23%,
+    rgba(255, 255, 255, 0.2978233529740021) 61%,
+    rgba(255, 255, 255, 0) 63%
+  );
+  --bg-default-dark: var(--mirage-900);
+  --bg-btn-dark-gray: var(--gray-300);
+  --bg-on-boarding: var(--linen-50);
+  --opacity-20: 0.2;
+  --settings-tab-hover: var(--gray-50);
+  --arrow-color: var(--gray-100);
+  --border-layer-0: 2px solid var(--gray-100);
+  --border-layer-1: 2px solid var(--gray-200);
+  --border-bottom: 2px solid var(--gray-100);
+  --border-warning-0: 1px solid var(--jaffa-400);
+  --border-color-gray: var(--gray-400);
+  --border-gray: 1px solid var(--gray-400);
+  --border-selected: 2px solid var(--mirage-900);
+  --btn-bg-primary: var(--blue-500);
+  --btn-bg-primary-hover: var(--blue-400);
+  --btn-bg-blue-secondary: var(--blue-100);
+  --btn-bg-blue-secondary-hover: var(--blue-200);
+  --btn-bg-gray-secondary: var(--gray-50);
+  --btn-bg-gray-secondary-hover: var(--gray-200);
+  --btn-bg-sidebar: var(--transaparent);
+  --btn-bg-sidebar-hover: var(--gray-200);
+  --btn-bg-sidebar-active: var(--blue-100);
+  --btn-text-sidebar-active: var(--blue-500);
+  --btn-text-sidebar: var(--mirage-900);
+  --form-border: 2px solid var(--gray-300);
+  --form-border-hover: 2px solid var(--gray-600);
+  --form-border-focus: 2px solid var(--gray-800);
+  --form-border-color-focus: var(--gray-800);
+  --comp-shadow-layer-1: var(--shadow-reg-0);
+  --comp-shadow-layer-2: var(--shadow-reg-0);
+  --chat-list-bg-focus: var(--spring-green-50);
+  --chat-list-border: 1px solid var(--white);
+  --chat-list-border-focus: 1px solid var(--spring-green-400);
+  --image-invert: brightness(-0.5) invert(0);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #3e3f3a;
+  background-color: #fff;
+  margin: 0;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #f8f5f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: 400;
+  line-height: 1;
+  color: #98978b;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+
+p {
+  margin: 0;
+}
